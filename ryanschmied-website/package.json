@@ -1,5 +1,6 @@
 {
   "name": "ryanschmied-website",
+  "homepage": "https://ryanschmied.github.io/website21",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
