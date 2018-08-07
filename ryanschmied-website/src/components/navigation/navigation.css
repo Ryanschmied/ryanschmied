@@ -1,0 +1,17 @@
+@font-face {
+    font-family: title;
+    src: url(../../assets/trench100free.ttf);
+}
+.navbar {
+    background-color: transparent;
+}
+.navbar-brand{
+    color: white;
+    font-family: title;
+    font-size: 60px;
+   
+}
+.navbar.navbar-fixed-top {
+    background-color: white;
+    height: 80px;
+}

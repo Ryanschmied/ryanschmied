@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import Navigation from './components/navigation';
-import Landing from './components/landing';
-import Introduction from './components/introduction';
+import './index.css';
+import Navigation from './components/navigation/navigation.js';
+import Introduction from './components/introduction/introduction.js';
+import Experience from './components/experience/experience.js';
+import Animation from './components/animation/animation.js';
+import Contact from './components/contact/contact.js';
+//import Animation from './components/landingAnimmation/animation.js';
 
 // Your application goes here
 
 const App = () => (
-    <div>
+    <div className="main-container">
       <Navigation></Navigation>
-      <Landing></Landing>
+      <Animation></Animation>
       <Introduction></Introduction>
+      <Experience></Experience>
+      <Contact></Contact>
     </div>
 )
 

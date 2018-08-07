@@ -1,0 +1,12 @@
+@font-face {
+    font-family: title;
+    src: url(../../assets/trench100free.ttf);
+}
+
+.main-body{
+    margin: 15px 450px 10px 450px;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    font-family: title;
+}

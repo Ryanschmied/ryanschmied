@@ -1,22 +1,25 @@
 import React from 'react';
 import '../index.css';
+import landingImage1 from '../assets/landing.jpg';
+import landingImage2 from '../assets/landing2.jpg';
+import landingImage3 from '../assets/landing3.jpg';
 
 const Landing = () => (
-<div className="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators0" data-slide-to="0" className="active"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
   </ol>
   <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="../assets/landing.jpg" alt="First slide"/>
+    <div className="carousel-item active" >
+      <img src={landingImage1} alt="First slide" id="landing-images"/>
     </div>
-    <div className="carousel-item">
-      <img src="../assets/landing2.jpg" alt="Second slide"/>
+    <div className="carousel-item" >
+      <img src={landingImage2} alt="Second slide" id="landing-images"/>
     </div>
-    <div className="carousel-item">
-      <img src="../assets/landing3.jpg" alt="Third slide"/>
+    <div className="carousel-item" >
+      <img src={landingImage3} alt="Third slide" id="landing-images"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
