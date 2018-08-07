@@ -4,6 +4,7 @@
 }
 .navbar {
     background-color: transparent;
+    position: fixed;
 }
 .navbar-brand{
     color: white;
