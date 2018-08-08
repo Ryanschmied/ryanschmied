@@ -9,7 +9,7 @@ const Animation = () => (
         <h5>Experience</h5>
         <h5>Contact</h5>
       </div>
-      <Particles id="animation" config="../../../particles.json" />
+      <Particles id="animation" config="particles.json" />
     </div>
 )
 
