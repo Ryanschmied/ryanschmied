@@ -1,0 +1,20 @@
+@font-face {
+    font-family: main;
+    src: url(../../assets/trench100free.ttf);
+}
+
+.heading{
+    font-family: main;
+    color:cyan;
+    background-color: #1b2437;
+    width: 20%;
+    height: 35px;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}

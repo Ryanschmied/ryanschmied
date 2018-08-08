@@ -9,4 +9,6 @@
     align-items: center;
     position: relative;
     font-family: title;
+    color:cyan;
+    background-color: #1b2437;
 }

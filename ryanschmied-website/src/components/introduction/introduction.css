@@ -1,10 +1,12 @@
 @font-face {
-    font-family: title;
+    font-family: main;
     src: url(../../assets/trench100free.ttf);
 }
 
 .intro-body{
-    margin: 800px 450px 10px 450px;
-    position:relative;
-    font-family: title;
+    margin: 15px 450px 10px 450px;
+    position: relative;
+    font-family: main;
+    color:cyan;
+    background-color: #1b2437;
 }

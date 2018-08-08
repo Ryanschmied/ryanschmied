@@ -1,3 +1,13 @@
 .main-container{
-    background-color: #1b2437;
+    background-color: #1b2437; 
+    height:100%;
+    width:100%;
+  
+} 
+.main-content{
+    width:100%;
+    position:absolute;
+    display: block;
+    background-color: #d0dcef;
+    margin-top: 25px;
 }
